@@ -1,0 +1,29 @@
+{
+    "name": "sysborg/bitethedust-laravel",
+    "description": "Extension that gives to Laravel an integration that brings capabilities from sysborg/bitethedust",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "sysborg/bitethedust": "^1.2",
+        "laravel/framework": "^9.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Sysborg\\LaraBTD\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anderson Arruda",
+            "email": "andmarruda@gmail.com",
+            "homepage": "https://andersonarruda.com.br"
+        },
+        {
+            "name": "Sysborg",
+            "email": "contato@sysborg.com.br",
+            "homepage": "https://sysborg.com.br"
+        }
+    ]
+}
